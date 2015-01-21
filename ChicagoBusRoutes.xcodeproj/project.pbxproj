@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		3565FA271A6F0383003B086F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA261A6F0383003B086F /* main.m */; };
 		3565FA2A1A6F0383003B086F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA291A6F0383003B086F /* AppDelegate.m */; };
-		3565FA2D1A6F0383003B086F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA2C1A6F0383003B086F /* ViewController.m */; };
+		3565FA2D1A6F0383003B086F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA2C1A6F0383003B086F /* RootViewController.m */; };
 		3565FA301A6F0383003B086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3565FA2E1A6F0383003B086F /* Main.storyboard */; };
 		3565FA321A6F0383003B086F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3565FA311A6F0383003B086F /* Images.xcassets */; };
 		3565FA351A6F0383003B086F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3565FA331A6F0383003B086F /* LaunchScreen.xib */; };
 		3565FA411A6F0383003B086F /* ChicagoBusRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA401A6F0383003B086F /* ChicagoBusRoutesTests.m */; };
+		3565FA4B1A6F038E003B086F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3565FA4A1A6F038E003B086F /* MapKit.framework */; };
+		3565FA521A6F03F8003B086F /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA511A6F03F8003B086F /* Parser.m */; };
+		3565FA5B1A6F1AA9003B086F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA5A1A6F1AA9003B086F /* DetailViewController.m */; };
+		3565FA671A6F2918003B086F /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA661A6F2918003B086F /* CustomAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,21 @@
 		3565FA261A6F0383003B086F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3565FA281A6F0383003B086F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3565FA291A6F0383003B086F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3565FA2B1A6F0383003B086F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3565FA2C1A6F0383003B086F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3565FA2B1A6F0383003B086F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3565FA2C1A6F0383003B086F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3565FA2F1A6F0383003B086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3565FA311A6F0383003B086F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3565FA341A6F0383003B086F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3565FA3A1A6F0383003B086F /* ChicagoBusRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChicagoBusRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3565FA3F1A6F0383003B086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3565FA401A6F0383003B086F /* ChicagoBusRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicagoBusRoutesTests.m; sourceTree = "<group>"; };
+		3565FA4A1A6F038E003B086F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3565FA501A6F03F8003B086F /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		3565FA511A6F03F8003B086F /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		3565FA591A6F1AA9003B086F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3565FA5A1A6F1AA9003B086F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3565FA651A6F2918003B086F /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		3565FA661A6F2918003B086F /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3565FA4B1A6F038E003B086F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 		3565FA181A6F0383003B086F = {
 			isa = PBXGroup;
 			children = (
+				3565FA4A1A6F038E003B086F /* MapKit.framework */,
 				3565FA231A6F0383003B086F /* ChicagoBusRoutes */,
 				3565FA3D1A6F0383003B086F /* ChicagoBusRoutesTests */,
 				3565FA221A6F0383003B086F /* Products */,
@@ -81,10 +94,10 @@
 		3565FA231A6F0383003B086F /* ChicagoBusRoutes */ = {
 			isa = PBXGroup;
 			children = (
-				3565FA281A6F0383003B086F /* AppDelegate.h */,
-				3565FA291A6F0383003B086F /* AppDelegate.m */,
-				3565FA2B1A6F0383003B086F /* ViewController.h */,
-				3565FA2C1A6F0383003B086F /* ViewController.m */,
+				3565FA4F1A6F03CB003B086F /* Parser */,
+				3565FA4E1A6F03C1003B086F /* CustomClasses */,
+				3565FA4C1A6F03AF003B086F /* AppDelegate */,
+				3565FA4D1A6F03B9003B086F /* ViewControllers */,
 				3565FA2E1A6F0383003B086F /* Main.storyboard */,
 				3565FA311A6F0383003B086F /* Images.xcassets */,
 				3565FA331A6F0383003B086F /* LaunchScreen.xib */,
@@ -117,6 +130,44 @@
 				3565FA3F1A6F0383003B086F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3565FA4C1A6F03AF003B086F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3565FA281A6F0383003B086F /* AppDelegate.h */,
+				3565FA291A6F0383003B086F /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3565FA4D1A6F03B9003B086F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3565FA2B1A6F0383003B086F /* RootViewController.h */,
+				3565FA2C1A6F0383003B086F /* RootViewController.m */,
+				3565FA591A6F1AA9003B086F /* DetailViewController.h */,
+				3565FA5A1A6F1AA9003B086F /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3565FA4E1A6F03C1003B086F /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3565FA651A6F2918003B086F /* CustomAnnotation.h */,
+				3565FA661A6F2918003B086F /* CustomAnnotation.m */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+		3565FA4F1A6F03CB003B086F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				3565FA501A6F03F8003B086F /* Parser.h */,
+				3565FA511A6F03F8003B086F /* Parser.m */,
+			);
+			name = Parser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3565FA2D1A6F0383003B086F /* ViewController.m in Sources */,
+				3565FA521A6F03F8003B086F /* Parser.m in Sources */,
+				3565FA2D1A6F0383003B086F /* RootViewController.m in Sources */,
 				3565FA2A1A6F0383003B086F /* AppDelegate.m in Sources */,
 				3565FA271A6F0383003B086F /* main.m in Sources */,
+				3565FA671A6F2918003B086F /* CustomAnnotation.m in Sources */,
+				3565FA5B1A6F1AA9003B086F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
