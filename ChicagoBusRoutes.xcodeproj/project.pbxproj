@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3556AC661A70241800DB48C7 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556AC651A70241800DB48C7 /* iCarousel.m */; };
+		3556AC691A70267F00DB48C7 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556AC681A70267F00DB48C7 /* page.png */; };
 		3565FA271A6F0383003B086F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA261A6F0383003B086F /* main.m */; };
 		3565FA2A1A6F0383003B086F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA291A6F0383003B086F /* AppDelegate.m */; };
 		3565FA2D1A6F0383003B086F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3565FA2C1A6F0383003B086F /* RootViewController.m */; };
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3556AC641A70241800DB48C7 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		3556AC651A70241800DB48C7 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		3556AC681A70267F00DB48C7 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
 		3565FA211A6F0383003B086F /* ChicagoBusRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoBusRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3565FA251A6F0383003B086F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3565FA261A6F0383003B086F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +77,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3556AC631A70241800DB48C7 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3556AC641A70241800DB48C7 /* iCarousel.h */,
+				3556AC651A70241800DB48C7 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		3556AC671A70267300DB48C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3556AC681A70267F00DB48C7 /* page.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3565FA181A6F0383003B086F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +101,8 @@
 				3565FA231A6F0383003B086F /* ChicagoBusRoutes */,
 				3565FA3D1A6F0383003B086F /* ChicagoBusRoutesTests */,
 				3565FA221A6F0383003B086F /* Products */,
+				3556AC671A70267300DB48C7 /* Resources */,
+				3556AC631A70241800DB48C7 /* iCarousel */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3556AC691A70267F00DB48C7 /* page.png in Resources */,
 				3565FA301A6F0383003B086F /* Main.storyboard in Resources */,
 				3565FA351A6F0383003B086F /* LaunchScreen.xib in Resources */,
 				3565FA321A6F0383003B086F /* Images.xcassets in Resources */,
@@ -275,6 +300,7 @@
 				3565FA2A1A6F0383003B086F /* AppDelegate.m in Sources */,
 				3565FA271A6F0383003B086F /* main.m in Sources */,
 				3565FA671A6F2918003B086F /* CustomAnnotation.m in Sources */,
+				3556AC661A70241800DB48C7 /* iCarousel.m in Sources */,
 				3565FA5B1A6F1AA9003B086F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +492,7 @@
 				3565FA461A6F0383003B086F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3565FA471A6F0383003B086F /* Build configuration list for PBXNativeTarget "ChicagoBusRoutesTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +501,7 @@
 				3565FA491A6F0383003B086F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
